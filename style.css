@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+:root{
+    --color-primary: #d4e9e2;
+    --color-secondary: #1e3932;
+    --color-extra: #d4e9e2;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+
+html,body{
+    font-family: 'open sans', 'sans-serif';
+    line-height: 1.4;
+    color: #000;
+
+}
+
+a {
+    color: #000;
+}
+
+ul{
+    list-style: none;
+
+}
+
+p{
+    margin: 5px 0;
+    line-height: 1.7;
+}
+
+img{
+    max-width: 100%;
+    height: 26px;
+    
+}
+
+section a {
+    color: black
+}
+/*----------------------------navbar--------------------------*/
+
+.navbar{
+    width: auto;
+    height: auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 0 2px rgb(0 0 0 / 7%);
+
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+}
+.navbar li {
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar a {
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #1a550c;
+}
+
+.navbar-brand img{
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-nav-left {
+    text-transform: uppercase;
+    flex: 1;
+    margin-left: 20px;
+
+}
+.navbar-nav-right li:first-child a {
+    display: flex;
+    align-items: center;
+}
+.nav-nav-right img {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.nav-nav-right li:nth-child(2) {
+    margin-right: 0 5px;
+}
+
+/*------------------------------box Style---------------*/
+
+.box {
+    margin-bottom: 30px;
+}
+
+.box-inner {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.box-text {
+    max-width: 500px;
+    text-align: center;
+    justify-self: center;
+    padding: 20px 0;
+}
+
+.box-text .btn {
+    margin-top: 20px;
+}
+
+
+.box-cover {
+    height: 250px;
+    width: auto;
+    background-color: #1e3932;
+    display: flex;
+}   
+
+
+.text-box {
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-weight: 501;
+    width: 57%;  
+}
+
+ .image {
+    width: 54%;
+    height: 248px;
+}
+.image > img {
+    height: 242px;
+    width: 100%;
+    margin-top: 3px ;
+} 
+ .cover-image {
+    width: 47%;
+    height: 596px;
+}
+.cover-image > img {
+    height: 540px;
+    width: 100%;
+ }
+
+/*-----grid Style------*/
+.cover-container {
+    width: auto;
+    height: 550px;
+    background-color: #1e3932;
+    display: flex;
+    margin-top: 30px;
+}
+.image-container {
+    width: 50%;
+    height: 550px;
+}
+.image-container > img {
+    width: 100%;
+    height: 550px;
+}
+
+.container-text {
+    text-align: center;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-weight: 501;
+    width: 56%;
+}
+
+.headline {
+    text-align: center;
+    margin-top:10%;
+    font-size: 50px;
+}
+    
+.para {
+    margin-top: 6%
+}
+
+.headline2 {
+    text-align: center;
+    margin-top:18%;
+}
+.para2{
+    margin-top: 3%;
+    line-height : 49px;
+    font-size: 24px;
+}
+
+.headline {
+    text-align: center;
+    margin-top:10%;
+    
+}
+.para{
+    margin-top: 6%;
+    line-height: 2.7;
+}
+/*--------------------------box J--------------------------*/
+.container-10{
+    height: 55vh;
+    width: auto;
+}
+
+
+.container9 {
+    height: 53vh;
+    width: auto;
+    color: black;
+}
+.container9-pera{
+    margin-top: 72px;
+    max-width: calc(1em * (calc(600 / 13)));
+    font-size: 14px;
+    line-height: 1.8;
+    text-align: center;
+    margin-left: 329px;
+    font-weight: 600;
+}
+.container9-pera2{
+    margin-top: 72px;
+    max-width: calc(1em * (calc(600 / 13)));
+    font-size: 14px;
+    line-height: 1.8;
+    text-align: center;
+    margin-left: 329px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.table{
+    height: 280px;
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+}
+.tab{
+    padding: 0 10px;
+    line-height: 3;
+}
+.tab > ul{
+    padding: 10px;
+    line-height: 35px;
+}
+.tab li {
+    cursor: pointer;
+}
+.menu-heading{
+    font-weight: bold;
+}
+footer {
+    height: 138px;
+    width: 100%;
+}
+.fa-brands {
+    font-size: 32px;
+    padding: 5px;
+    margin-top: 1%;
+    margin-left: 5px;
+}
+.footer-bottom {
+    padding: 12px;
+    display: flow-root;
+}
+.footer-bottom > a {
+    padding: 0 8px;
+}
+/*----------------------------Button-------------------------------*/
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    background: none;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 7px 16px;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+}
+.btn3 {
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 7px 16px;
+}
+
+.btn-dark-outline {
+    border-color: black;
+    color: black;
+}
+.btn-dark-outline:hover .btn-light-outline:hover{
+    background-color: rgba(0,0,0,0.06);
+}
+
+.btn-light-outline {
+    border-color:#fff;
+    color: #fff;
+}
+
+.btn-dark {
+    background-color: black;
+    color: #fff;
+}
+
+.btn-dark:hover {
+    border-color: #333;
+}
+
+/*--------------Background-----------*/
+
+.bg-primary {
+    background-color: var(--color-primary);
+    color: #fff;
+}
+.bg-secondary {
+    background-color: #1e3932;
+    color: #fff;
+    display: flex;
+    margin-top: 30px;
+}
+.bg-extra {
+    background-color: #1e3932;
+    color: black;
+}
+.bg-dark {
+    background-color: #1e3932;
+    color: black;
+}
+
+/*----------------Text Style------------*/
+
+.text-center {
+    text-align: center;
+}
+
+.text-lg {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.text-md {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.text-sm {
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+.text-xl  {
+    color: black;
+    font-size: 20px;
+}
+
+/*------------Padding--------*/
+
+.py-sm {
+    padding: 10px 0;
+}
+.py-md {
+    padding: 55px 0;
+}
+.py-lg {
+    padding: 40px 0;
+}
+
+ @media screen and (max-width: 960px) {
+    .text-xl {
+        font-size: 30px;
+    }
+
+    .text-lg {
+        font-size: 25px;
+    }
+    .text-md {
+        font-size: 19px;
+    }
+    @media screen and ( min-width: 1440px) {
+        .box {
+            max-width: 1400px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+}
