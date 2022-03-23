@@ -157,7 +157,7 @@ section a {
     width: 100%;
  }
 
-/*-----grid Style------*/
+/*-----box-Style------*/
 .cover-container {
     width: auto;
     height: 550px;
@@ -248,7 +248,7 @@ section a {
     height: 280px;
     width: 100%;
     display: flex;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 .tab{
     padding: 0 10px;
