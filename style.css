@@ -13,14 +13,7 @@
 html,body{
     font-family: 'open sans', 'sans-serif';
     line-height: 1.4;
-    color: #000;
-
 }
-
-a {
-    color: #000;
-}
-
 ul{
     list-style: none;
 
@@ -30,13 +23,6 @@ p{
     margin: 5px 0;
     line-height: 1.7;
 }
-
-img{
-    max-width: 100%;
-    height: 26px;
-    
-}
-
 section a {
     color: black
 }
@@ -47,6 +33,7 @@ section a {
     height: auto;
     background-color: #fff;
     padding: 20px;
+    display: flex;
     box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 0 2px rgb(0 0 0 / 7%);
 
 }
@@ -67,7 +54,7 @@ section a {
 }
 
 .navbar a {
-    color: #000;
+   
     text-decoration: none;
 }
 
@@ -78,6 +65,7 @@ section a {
 .navbar-brand img{
     width: 50px;
     height: 50px;
+    border-radius: 24px;
 }
 
 .navbar-nav-left {
@@ -98,6 +86,17 @@ section a {
 
 .nav-nav-right li:nth-child(2) {
     margin-right: 0 5px;
+}
+
+#coupon{
+    height: 270px;
+    width: 540px;
+    margin: auto;
+    z-index: 100;
+    display: none;
+    position: absolute;
+    margin-left: 29%;
+    margin-top: 65;
 }
 
 /*------------------------------box Style---------------*/
@@ -222,10 +221,9 @@ section a {
 .container9 {
     height: 53vh;
     width: auto;
-    color: black;
 }
 .container9-pera{
-    margin-top: 72px;
+    margin-top: 66px;
     max-width: calc(1em * (calc(600 / 13)));
     font-size: 14px;
     line-height: 1.8;
@@ -234,7 +232,7 @@ section a {
     font-weight: 600;
 }
 .container9-pera2{
-    margin-top: 72px;
+    margin-top: 60px;
     max-width: calc(1em * (calc(600 / 13)));
     font-size: 14px;
     line-height: 1.8;
@@ -274,6 +272,9 @@ footer {
     margin-top: 1%;
     margin-left: 5px;
 }
+.footer :hover{
+    transform: scale(1.2);
+}
 .footer-bottom {
     padding: 12px;
     display: flow-root;
@@ -292,7 +293,8 @@ footer {
     padding: 7px 16px;
     line-height: 1.2;
     text-align: center;
-    text-decoration: none;
+    background-color: white;
+    color: #551a8b;
 }
 .btn3 {
     cursor: pointer;
@@ -302,7 +304,7 @@ footer {
 
 .btn-dark-outline {
     border-color: black;
-    color: black;
+    
 }
 .btn-dark-outline:hover .btn-light-outline:hover{
     background-color: rgba(0,0,0,0.06);
@@ -321,6 +323,15 @@ footer {
 .btn-dark:hover {
     border-color: #333;
 }
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+.dark-mode > .navbar {
+    color: white;
+    background-color: black;
+}
+
 
 /*--------------Background-----------*/
 

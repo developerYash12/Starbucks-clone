@@ -19,6 +19,7 @@
                     <img src="images/logo.jpg" alt="starbucks">
                 </a>
             </div>
+        </div>
             <ul class="navbar-nav-left">
                 <li>
                     <a href="#">Menu</a>
@@ -31,17 +32,23 @@
                 </li>
             </ul>
             <ul class="navbar-nav-right">
-                <li>
                     <a href="#">
-                        <img src="images/location icon.jpg" alt="location">
+                        <i class="fa-brands fa-periscope"></i>
                         <span>Find a Store</span>
                     </a>
                 </li>
                 <li><button class="btn">Sign in</button></li>
                 <li><button class="btn btn-dark">Join now</button></li>
+                <li>
+                    <i class="fa-brands fa-medapps"onclick="myFunction()" style="cursor: pointer;"></i>
+                <li>
             </ul>
-        </div>
+        
     </nav>
+    <div id="coupon">
+        <button style="margin-top: 10px; width: 25px; height: 25px;display:contents" onclick="closecoupon()">X</button>
+        <img src="images/50-off-coupon.jpg" alt="coupon">
+    </div>
     <!---------------------BOX A---------------------------->
 
     <section class="box box-a bg-primary text-center py-md">
@@ -96,7 +103,7 @@
         </div>
     </div>
     <!--------------------------box E-------------------------->
-    <div class="box- box-b bg-secondary grid-col-2" style="margin-top: 30px;height: 380px; background-color: #d4e9e2;">
+    <div class="box- box-b bg-secondary grid-col-2" style="margin-top: 30px;height: 383px; background-color: #d4e9e2;">
         <div class="image">
             <img src="images/uber eat.jpg" alt="image" style="height: auto;">
         </div>
@@ -235,6 +242,19 @@
             <p style="color: gray;">© 2022 Starbucks Coffee Company. All rights reserved.</p>
         </div>
     </footer>
+    <script>
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+        window.onload = loadcoupon();
+        function loadcoupon() {
+            document.getElementById("coupon").style.display="block"
+        }
+        function closecoupon() {
+            document.getElementById("coupon").style.display="none"
+        }
+    </script>
 </body>
 
 </html>
