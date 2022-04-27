@@ -74,6 +74,9 @@ section a {
     margin-left: 20px;
 
 }
+a {
+    color: black;
+}
 .navbar-nav-right li:first-child a {
     display: flex;
     align-items: center;
@@ -259,6 +262,7 @@ section a {
 .tab li {
     cursor: pointer;
 }
+
 .menu-heading{
     font-weight: bold;
 }
@@ -324,12 +328,12 @@ footer {
     border-color: #333;
 }
 .dark-mode{
-    background-color: black;
+    background-color: #333;
     color: white;
 }
 .dark-mode > .navbar {
     color: white;
-    background-color: black;
+    background-color: #333;
 }
 
 
